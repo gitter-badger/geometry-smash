@@ -73,7 +73,7 @@ var obstacleSaw = function(x, y) {
 };
 
 var obstacleRect = function(y) {
-  （500，500，100，25)
+  ctx.rect(500, 500, 100, 25);
   ctx.beginPath();
   ctx.moveTo(500, y);
   ctx.lineTo(160, y);
