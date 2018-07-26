@@ -102,7 +102,8 @@ var drawFloor = function() {
 /* The obstacle types. */
 var obstacleTypes = [
   obstacleSpike,
-  obstacleSaw
+  obstacleSaw,
+  obstacleRect
 ];
 
 var drawObstacles = function() {
