@@ -72,6 +72,16 @@ var obstacleSaw = function(x, y) {
   sawSpike(x, y);
 };
 
+var obstacleRect = function(y) {
+  （500，500，100，25)
+  ctx.beginPath();
+  ctx.moveTo(500, y);
+  ctx.lineTo(160, y);
+  ctx.lineTo(130, y - 60);
+  ctx.closePath();
+  ctx.fill();
+ };
+
 var drawFloor = function() {
   for (var i = 0; i < 4; i++) {
     ctx.beginPath();
@@ -113,15 +123,4 @@ var draw = function() {
   time++;
 };
 
-draw();d
-var rect = function(y) { 
-  （500，500，100，25)
-  ctx.beginPath();
-  ctx.moveTo(500, y);
-  ctx.lineTo(160, y);
-  ctx.lineTo(130, y - 60);
-  ctx.closePath();
-  ctx.fill();
- };
-  
- 
+draw();
