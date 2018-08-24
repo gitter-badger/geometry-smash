@@ -240,7 +240,7 @@ var obstacleRect = function(x, y) {
   ctx.lineTo(130, y - 60);
   ctx.closePath();
   ctx.fill();
- };
+};
 
 var drawFloor = function() {
   let strokeColors = ["black", "black"];
