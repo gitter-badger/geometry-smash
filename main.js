@@ -79,6 +79,44 @@ var obstacleSpike = function(x, y) {
   ctx.fillStyle = "black";
   ctx.fill();
 };
+/*I am making a program on github
+and this is my game hero !!! */
+
+
+var y = 10;
+
+/*body
+and color*/
+
+fill(105, 73, 75);
+ellipse(y + 190,350,93,93);
+
+/*big
+smile*/
+
+fill(245, 240, 240);
+arc(y + 192,350,71,77,1,180);
+
+/*eyes and
+pupils*/
+
+ellipse(y + 179,332,24,24);
+ellipse(y + 200,332,24,24);
+fill(0, 0, 255);
+ellipse(y + 179,332,10,10);
+ellipse(y + 200,332,10,10);
+
+/*arms and
+fists*/
+
+line(y + 236,351,270,304);
+line(y + 144,350,130,304);
+fill(255, 0, 0);
+ellipse(y + 120,307,10,10);
+ellipse(y + 260,307,10,10);
+
+
+
 
 var drawStats = function() {
   ctx.fillStyle = "black";
