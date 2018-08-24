@@ -88,7 +88,7 @@ var y = 10;
 /*body
 and color*/
 
-fill(105, 73, 75);
+  ctx.fill(105, 73, 75);
 ellipse(y + 190,350,93,93);
 
 /*big
